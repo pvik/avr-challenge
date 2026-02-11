@@ -26,6 +26,7 @@ Example:
 
 ## Run
 
+This project uses `uv`. Please follow instructions to install uv [here](https://docs.astral.sh/uv/getting-started/installation/).
 ```bash
-python main.py --config config.json
+uv run main.py --config config.json
 ```
