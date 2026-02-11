@@ -30,3 +30,9 @@ This project uses `uv`. Please follow instructions to install uv [here](https://
 ```bash
 uv run main.py --config config.json
 ```
+
+## Improvements
+
+- [ ] Add support for other LLM providers
+- [ ] Use a single System message that is generated and cached on startup.
+- [ ] Use tool calling to validate if user question is about ThoughtfulAI or not
