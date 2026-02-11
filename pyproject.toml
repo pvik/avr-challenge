@@ -1,0 +1,12 @@
+[project]
+name = "eva-challenge"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.128.7",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.35",
+    "pydantic>=2.12.5",
+    "uvicorn>=0.40.0",
+]
